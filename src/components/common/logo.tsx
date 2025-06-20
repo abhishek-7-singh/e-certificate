@@ -2,8 +2,8 @@ import { cn } from "@/lib/utils";
 import { Fira_Sans } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import LogoImg from "@/../public/images/Emblem_of_Nepal.svg";
-
+// import LogoImg from "@/../public/images/Emblem_of_Nepal.svg";
+import LogoImg from "@/../public/emblem_new.webp";
 const font = Fira_Sans({ subsets: ["latin"], weight: ["400", "500", "600"] });
 
 interface ILogoProps {

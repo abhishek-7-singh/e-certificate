@@ -74,11 +74,12 @@ const Footer = () => {
                 <div className="flex flex-col gap-2 text-sm md:text-base ">
                   <p className="flex items-center gap-2">
                     <FaLocationDot />
-                    Dudhpati, Bhaktapur
+                    {/* Dudhpati, Bhaktapur */}
+                    Chennai, India
                   </p>
                   <p className="flex items-center gap-2">
                     <FaPhone />
-                    +977 9800000000
+                    +91 9800000000
                   </p>
                   <p className="flex items-center gap-2">
                     <IoMail />
@@ -90,8 +91,8 @@ const Footer = () => {
             <div className="relative max-md:hidden w-36 h-36 mt-4 justify-self-end ">
               <Image
                 unoptimized
-                src="/images/flag.gif"
-                alt="Flag-of-Nepal"
+                src="/india-indian-flag.gif"
+                alt="Flag-of-India"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="-mt-3"
@@ -102,10 +103,9 @@ const Footer = () => {
           {/* Bottom */}
           <div className="border-t border-t-border/70 flex items-center justify-between text-center py-8 text-xs md:text-sm max-sm:flex-col max-sm:gap-2">
             <p>
-              Copyright &copy; 2024 Diwash Bhattarai | Pravakar Rijal | Manish
-              Dhungana | Prakash Pandey
+              
             </p>
-            <p>All Rights Reserved. Dudhpati, Bhaktapur</p>
+            
           </div>
         </Container>
       </div>
