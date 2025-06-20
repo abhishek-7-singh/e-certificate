@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import Image from "next/image";
-
 import LoginForm from "@/components/auth/login-form";
 import AnimationWrapper from "@/components/animations/page-animation";
 import SwiperWrapper from "@/components/ui/swiper-wrapper";
