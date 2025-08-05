@@ -1,6 +1,5 @@
 #  GovCertify
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-Government%20Certified-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Digital%20India-orange.svg)
 
