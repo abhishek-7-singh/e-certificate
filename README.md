@@ -292,7 +292,6 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ## 🌐 Links
 
-- **Portfolio:** [abhishek-7-singh.github.io](https://abhishek-7-singh.github.io)
 - **GitHub:** [@abhishek-7-singh](https://github.com/abhishek-7-singh)
 
 
