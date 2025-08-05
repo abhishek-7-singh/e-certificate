@@ -1,4 +1,4 @@
-# 🇮🇳 Government-Certified e-Governance Project
+#  GovCertify
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-Government%20Certified-green.svg)
@@ -289,30 +289,16 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ## 🙌 Contributors
 
-- **Abhishek Singh** – Lead Architect & Developer
-- Government Mentors & Advisors
-- Public Administration Experts
+- **Abhishek Singh**
+- **Divyansh Bhattarai
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🌐 Links
 
 - **Portfolio:** [abhishek-7-singh.github.io](https://abhishek-7-singh.github.io)
-- **LinkedIn:** [Connect with me](https://linkedin.com/in/abhishek-7-singh)
 - **GitHub:** [@abhishek-7-singh](https://github.com/abhishek-7-singh)
 
-## 📞 Contact & Support
 
-For implementation, customization, or support inquiries:
-
-- 📧 **Email:** abhishek.singh@yourdomain.in
-- 📱 **Phone:** +91-XXXXXXXXXX
-- 💼 **LinkedIn:** [abhishek-7-singh](https://linkedin.com/in/abhishek-7-singh)
-- 🐛 **Issues:** [GitHub Issues](https://github.com/abhishek-7-singh/government-egovernance-project/issues)
-
----
 
 <div align="center">
 
