@@ -2,7 +2,7 @@
 
 import { ReactPropTypes, useState } from "react";
 import { UseFormRegisterReturn } from "react-hook-form";
-import { LuChevronDown, LuTrash2, LuUserCog2 } from "react-icons/lu";
+import { LuChevronDown, LuTrash2 } from "react-icons/lu";
 
 import { cn } from "@/lib/utils";
 

@@ -8,7 +8,8 @@ import { useSearchParams } from "next/navigation";
 import { useForm, SubmitHandler } from "react-hook-form";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { LuKeyRound, LuMail, LuHash } from "react-icons/lu";
+// import { LuKeyRound, LuMail, LuHash } from "react-icons/lu";
+import { LuKeyRound, LuMail } from "react-icons/lu";
 
 import { login } from "@/actions/login";
 
@@ -26,7 +27,7 @@ const defaultValues = {
 };
 
 const LoginForm = () => {
-  const [showTwoFactor, setShowTwoFactor] = useState(false);
+  // const [showTwoFactor, setShowTwoFactor] = useState(false);
   const [error, setError] = useState<string | undefined>("");
   const [success, setSuccess] = useState<string | undefined>("");
   const [isPending, startTransition] = useTransition();
@@ -64,9 +65,9 @@ const LoginForm = () => {
             reset();
             setSuccess(data?.success);
           }
-          if (data?.twoFactor) {
-            setShowTwoFactor(true);
-          }
+          // if (data?.twoFactor) {
+          //   setShowTwoFactor(true);
+          // }
         })
         .catch(() => setError("Something went wrong"));
     });
@@ -95,11 +96,14 @@ const LoginForm = () => {
         </div>
       </Link>
       <CardWrapper
-        headerLabel={showTwoFactor ? "Two Factor Code" : "Login"}
-        subHeaderLabel={showTwoFactor ? "" : "Welcome back"}
+        // headerLabel={showTwoFactor ? "Two Factor Code" : "Login"}
+        headerLabel="Login"
+        // subHeaderLabel={showTwoFactor ? "" : "Welcome back"}
+        subHeaderLabel="Welcome back"
         backButtonHref="/register"
         backButtonLabel="Don't have an account ? Register Now"
-        showSocial={showTwoFactor ? false : true}
+        // showSocial={showTwoFactor ? false : true}
+        showSocial
         disabled={isPending}
         wrapperClassName="min-h-fit"
       >
@@ -109,48 +113,36 @@ const LoginForm = () => {
         >
           {/* 2FA  */}
 
-          {showTwoFactor ? (
+          {/* {showTwoFactor ? (
             <>
-              {/* 2FA */}
-              {/* User Inputs -- Code */}
-              <Input
-                label="2FA Code"
-                name="code"
-                type="number"
-                placeholder="Code"
-                icon={LuHash}
-                error={errors.code?.message}
-                disabled={isPending}
-                register={register("code")}
-              />
             </>
-          ) : (
-            <>
-              {/* User Inputs -- Email */}
-              <Input
-                label="Email"
-                name="email"
-                type="email"
-                placeholder="Email"
-                icon={LuMail}
-                error={errors.email?.message}
-                disabled={isPending}
-                register={register("email")}
-              />
+          ) : ( */}
+          <>
+            {/* User Inputs -- Email */}
+            <Input
+              label="Email"
+              name="email"
+              type="email"
+              placeholder="Email"
+              icon={LuMail}
+              error={errors.email?.message}
+              disabled={isPending}
+              register={register("email")}
+            />
 
-              {/* User Inputs -- Password */}
-              <Input
-                label="Password"
-                name="password"
-                type="password"
-                placeholder="******"
-                icon={LuKeyRound}
-                error={errors.password?.message}
-                disabled={isPending}
-                register={register("password")}
-              />
-            </>
-          )}
+            {/* User Inputs -- Password */}
+            <Input
+              label="Password"
+              name="password"
+              type="password"
+              placeholder="******"
+              icon={LuKeyRound}
+              error={errors.password?.message}
+              disabled={isPending}
+              register={register("password")}
+            />
+          </>
+          {/* )} */}
 
           {/* Sucess Message */}
           {success && <FormSuccess message={success} />}
@@ -167,7 +159,8 @@ const LoginForm = () => {
 
           {/* Submit Button */}
           <Button disabled={isPending} loader={isPending} type="submit" full>
-            {showTwoFactor ? "Confirm" : "Login"}
+            {/* {showTwoFactor ? "Confirm" : "Login"} */}
+            Login
           </Button>
         </form>
       </CardWrapper>

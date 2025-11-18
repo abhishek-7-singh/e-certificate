@@ -4,7 +4,7 @@ import Link from "next/link";
 import { signOut } from "next-auth/react";
 
 import Button from "@/components/ui/Button";
-import Container from "@/components/common/max-width-container";
+import MaxWidthContainer from "@/components/common/max-width-container";
 import AnimationWrapper from "../animations/page-animation";
 
 interface ErrorCardProps {
@@ -18,7 +18,7 @@ const ErrorCard = ({
   backButtonHref,
   backButtonLabel,
   logout,
-  children,
+  children, 
 }: ErrorCardProps) => {
   const handleLogout = () => {
     signOut();
@@ -26,7 +26,7 @@ const ErrorCard = ({
 
   return (
     <AnimationWrapper>
-      <Container>
+      <MaxWidthContainer>
         <section className="flex h-[calc(100vh_-_90px)] w-full flex-col items-center justify-center gap-4 text-center">
           <h2 className="text-4xl">Oops! Something went wrong!</h2>
 
@@ -45,7 +45,7 @@ const ErrorCard = ({
             )}
           </div>
         </section>
-      </Container>
+      </MaxWidthContainer>
     </AnimationWrapper>
   );
 };

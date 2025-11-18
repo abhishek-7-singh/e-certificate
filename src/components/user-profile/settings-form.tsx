@@ -10,8 +10,8 @@ import {
   LuKeyRound,
   LuMail,
   LuPhone,
-  LuUserCircle2,
-  LuUserCog2,
+  LuUserRound,
+  LuUserCog,
 } from "react-icons/lu";
 import { useSession } from "next-auth/react";
 
@@ -128,7 +128,7 @@ const SettingsForm = ({ isEdit, setIsEdit }: SettingsFormProp) => {
                 name="name"
                 type="text"
                 placeholder="Full name"
-                icon={LuUserCircle2}
+                icon={LuUserRound}
                 error={errors.name?.message}
                 disabled={isPending}
                 register={register("name")}
@@ -188,7 +188,7 @@ const SettingsForm = ({ isEdit, setIsEdit }: SettingsFormProp) => {
               <Select
                 selectLabel="Role"
                 name="role"
-                Icon={LuUserCog2}
+                Icon={LuUserCog}
                 value={selectValue}
                 setSelectValue={setSelectValue}
                 error={errors.role?.message}

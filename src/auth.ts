@@ -6,7 +6,7 @@ import authConfig from "@/auth.config";
 
 import { getUserById } from "@/data/user";
 import { getAccountByUserId } from "@/data/account";
-import { getTwoFactorConfirmationByUserId } from "@/data/two-factor-confirmation";
+// import { getTwoFactorConfirmationByUserId } from "@/data/two-factor-confirmation";
 
 import { db } from "@/lib/db";
 
@@ -38,20 +38,20 @@ export const {
       const existingUser = await getUserById(user.id as string);
 
       // Prevent sign in without email verification
-      if (!existingUser?.emailVerified) return false;
+      // if (!existingUser?.emailVerified) return false;
 
-      if (existingUser.isTwoFactorEnabled) {
-        const twoFactorConfirmation = await getTwoFactorConfirmationByUserId(
-          existingUser.id
-        );
+      // if (existingUser.isTwoFactorEnabled) {
+      //   const twoFactorConfirmation = await getTwoFactorConfirmationByUserId(
+      //     existingUser.id
+      //   );
 
-        if (!twoFactorConfirmation) return false;
+      //   if (!twoFactorConfirmation) return false;
 
-        // Delete two factor confirmation for next sign in
-        await db.twoFactorConfirmation.delete({
-          where: { id: twoFactorConfirmation.id },
-        });
-      }
+      //   // Delete two factor confirmation for next sign in
+      //   await db.twoFactorConfirmation.delete({
+      //     where: { id: twoFactorConfirmation.id },
+      //   });
+      // }
 
       return true;
     },

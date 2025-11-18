@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { LuLogOut, LuUserCircle2 } from "react-icons/lu";
+import { LuLogOut, LuUserRound } from "react-icons/lu";
 import { TbCertificate } from "react-icons/tb";
 import { VscFileSubmodule } from "react-icons/vsc";
 
@@ -40,7 +40,7 @@ const UserProfile = ({ isAdmin }: IUserProfileProps) => {
   }[] = [
     {
       label: "Manage Profile",
-      icon: LuUserCircle2,
+      icon: LuUserRound,
       onClick: () => {
         setIsProfileSettingsOpen(true);
         setIsProfileOpen(false);
@@ -151,7 +151,7 @@ const UserProfile = ({ isAdmin }: IUserProfileProps) => {
               className="flex items-center gap-3 px-2 font-medium transition-colors rounded-md cursor-pointer hover:bg-muted border border-transparent hover:border-border"
             >
               <div className="flex items-center gap-3">
-                <LuUserCircle2 className="w-auto py-3 h-11" />
+                <LuUserRound className="w-auto py-3 h-11" />
                 <h3>Manage Profile</h3>
               </div>
             </div>
