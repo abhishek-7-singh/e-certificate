@@ -300,10 +300,12 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ![LoginPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/5ff4293d-583d-44bd-aca8-16c9866fdfc7)
 ![RegisterPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/d8296674-6180-4803-83f6-83ca45f2541f)
-
-![HomePage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/473a4a15-b983-4f12-865b-22e3a58a962d)
-![AboutPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/cf896c21-16f3-4304-ab4f-b9ee7c41d70d)
 <img width="1776" height="3161" alt="image" src="https://github.com/user-attachments/assets/a4834932-6b99-427b-8805-5c3920d6df18" />
+<img width="1776" height="1302" alt="image" src="https://github.com/user-attachments/assets/ae062208-c5fc-4ffc-82d9-ff5c57bcaa2e" />
+<img width="1776" height="1200" alt="image" src="https://github.com/user-attachments/assets/a8e25f2e-9d40-4b54-8d44-582503c54568" />
+<img width="1776" height="1185" alt="image" src="https://github.com/user-attachments/assets/ef40eb56-2c15-4416-bd89-b82e35254cf8" />
+<img width="1776" height="1463" alt="image" src="https://github.com/user-attachments/assets/3f358b77-611d-4d21-8ad8-f89ca96368ab" />
+
 
 
 ![Admin-DashboardPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/bcbdaf63-2cf5-4f06-a199-e71d32ee1cdf)
