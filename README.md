@@ -303,18 +303,8 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ![HomePage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/473a4a15-b983-4f12-865b-22e3a58a962d)
 ![AboutPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/cf896c21-16f3-4304-ab4f-b9ee7c41d70d)
-![ContactUsPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/088e071b-ad20-4abf-9da0-4018720260b2)
-![FAQPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/fab7635c-652d-43a1-945f-2d0cf0d5c6bf)
+<img width="1776" height="3161" alt="image" src="https://github.com/user-attachments/assets/a4834932-6b99-427b-8805-5c3920d6df18" />
 
-![YourCertificatesPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/1ce045ad-9bf0-4cd8-b647-2b8ef23c643a)
-![YourCertificateDetailsPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/c8ebef9a-87cd-4062-a289-96419ea8889a)
-
-![BirthCertificate-DetailsPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/a2353152-02f1-4848-8c2e-d6d362c61e0b)
-![BirthCertificate-RequesterDetailsPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/9657e2df-67bc-4123-91ef-720096d55472)
-![BirthCertificate-DeliveryDetailsPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/b8f56d02-8d1f-403c-ba7e-1c3448f766c8)
-![BirthCertificate-SummaryPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/239bff58-148c-4d25-8824-83f60bed3387)
-![BirthCertificate-ConfirmationPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/f5bf6b8a-f0fc-45d8-bfff-f54459a7e757)
-![BirthCertificate-SuccessPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/cdbfbf38-efcd-4ce6-ace9-54b0ab08b6ac)
 
 ![Admin-DashboardPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/bcbdaf63-2cf5-4f06-a199-e71d32ee1cdf)
 ![Admin-AppliedCertificatesPage](https://github.com/diwashbhattarai999/Gov-Certify/assets/87477700/6857737a-7c1f-4f50-993b-b0784412f2ee)
